@@ -1,0 +1,480 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    max-width: 5000px;
+    width: 100%;
+    margin: auto;
+}
+.block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section_header{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+
+header {
+    width: 100%;
+    max-width: 1366px;
+    margin: auto;
+    display: flex;
+    padding-left: 105px;
+    padding-right: 105px;
+    
+}
+
+.navitem {
+    padding-right: 20px;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    color: #939699;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 20px;
+    
+}
+
+.navigation {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    margin-left: 427px;
+    margin-top: 25px;
+    
+}
+
+.cart {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.button {
+    font-family: 'Lato', sans-serif;
+    border-radius: 20px;
+    padding: 10px 20px 10px 48px;
+    cursor: pointer;
+    height: 40px;
+    background-color: #4592FF;
+    color: #FFFFFF;
+    border: none;
+}
+
+.button_cart {
+    background: #4592FF url(/img/Cart.svg) no-repeat 20px center;
+}
+
+.green_button {
+    font-family: 'Lato', sans-serif;
+    color:#FFFFFF;
+    font-size: 12px;
+    line-height: 15px;
+    background: #3DC47E;
+    border-radius: 3px;
+    padding: 5px 12px; 
+    border: none;
+    cursor: pointer;
+}
+
+.bestseller_sweater {
+    margin-top: 90px;
+    margin-left: 550px;
+}
+
+.container_sweater {
+    background: #B4D1E0 url(/img/image-064.png) no-repeat left 750px center;
+    width: 100%;
+    max-width: 5000px;
+    max-height: 570px;
+    height: 100%;
+    margin: auto;
+}
+
+.section_title {
+    max-width: 458px;
+    font-family: 'Roboto Slab', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 70px;
+    color: #262D33;
+}
+
+.sweater_title {
+    margin-top: 25px;
+    margin-left: 550px;
+    margin-bottom: 50px;
+}
+
+.p_desc {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    display: flex;
+    align-items: center; 
+    color: #4B5157;
+}
+
+.sweater_desc {
+    margin-top: 15px;
+    margin-left: 550px;
+}
+
+.logoimg {
+    margin-left: 60px;
+}
+
+.button_shopnow {
+    margin-bottom: 110px;
+    margin-left: 550px;
+    margin-top: 40px;
+    padding: 10px 25px 10px 20px;
+}
+
+.blockproducts {
+    width: 100%;
+    max-width: 1366px;
+    max-height: 530px;
+    height: 100%;
+    margin: auto;
+}
+
+.card_title {
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.card_desc {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.fmh {
+    color: #262D33;
+    
+}
+
+.fmp {
+    color: #262D33;
+   
+}
+.ctsh {
+    color: #fff;
+    
+    
+}
+
+.ctsp {
+    color: #fff;
+    
+}
+
+.psh {
+    color: #fff;
+    margin-top: 35px;
+    margin-left: 26px;
+    margin-right: 32px;
+}
+
+.psp {
+    color: #fff;
+    margin-top: 10px;
+    margin-left: 26px;
+}
+
+.pth {
+    
+    margin-top: 30px;
+    margin-left: 46px;
+}
+
+.ptp {
+    margin-top: 20px;
+    margin-left: 46px;
+}
+
+.printed_shirt_price {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 20px;
+    color: #fff;
+    margin-bottom: 210px;
+    margin-top: 15px;
+    margin-left: 26px;
+}
+.view_all {
+    background: #4592FF url(/img/Arrow-product.svg) no-repeat 78px center;
+    margin-top: 25px;
+    padding: 10px 45px 10px 25px;
+}
+
+.card {
+    max-height: 370px;
+    max-width: 563px;
+    width: 100%;
+    height: 100%;
+}
+
+.fashon_mouth {
+    padding: 60px 296px 145px 46px;
+    border-radius: 10px;
+    background-image: url(/img/fashionmonth.png);
+    margin-top: 50px;
+    display: inline-block;
+    width: 100%;
+    margin-left: 104px;
+    position: absolute;
+}
+
+.catch_the_sun {
+    padding: 60px 296px 145px 46px;
+    border-radius: 10px;
+    background-image: url(/img/sun-style.png);
+    margin-top: 50px;
+    margin-left: 697px;
+    display: inline-block;
+    width: 100%;
+}
+
+.poplin_top {
+    width: 100%;
+    height: 100%;
+    background: #CCD5E6 url(/img/sad_women.png) no-repeat left 270px center;
+    max-width: 860px;
+    max-height: 370px;
+    border-radius: 10px;
+    margin-left: 104px;
+    margin-top: 30px;
+    display: inline-block;
+}
+
+.w_poplin_top {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    margin: -350px 780px;
+    max-width: 50px;
+    max-height: 50px;
+    width: 100%;
+    height: 100%;
+}
+
+.woman {
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 3px;
+    border-spacing: 0;
+    margin-bottom: -4px;
+    background: #CCD5E6;
+}
+
+.first_woman {
+    background: #fff;
+}
+
+.printed_shirt {
+    width: 100%;
+    max-width: 272px;
+    background: #FF4F52 url(../img/glasses_octopus.png) no-repeat left 54px center;
+    display: inline-block;
+    margin-left: 26px;
+    border-radius: 10px;
+    position: absolute;
+    margin-top: 30px;
+}
+
+.pt_button {
+    margin-top: 35px;
+    margin-left: 46px;
+}
+
+.pt_shopnow {
+    margin-top: 40px;
+    margin-left: 46px;
+}
+
+.new_arrivial {
+    max-width: 1140px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: space-between;
+}
+
+.new_arrivial_things {
+    max-width: 1140px;
+    width: 100%;
+    margin: auto;
+}
+
+.view_na {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 20px;
+    text-decoration: none;
+    color: #262D33;
+}
+
+.new_arrivial_title {
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 30px;
+}
+
+.product_card {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    margin-top: 70px;
+    max-width: 263px;
+    height: 370px;
+}
+
+.na_button {
+    position: absolute;
+    margin-right: 190px;
+    margin-top: -15px;
+}
+
+.product {
+    display: inline-block;
+    margin-top: 30px;
+    max-width: 263px;
+    height: 370px;
+    width: 100%;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.new_arrivial {
+    max-width: 1158px;
+    width: 100%;
+    margin-top: 350px;
+}
+.product_price {
+    color:#262D33;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 30px;
+    margin-top: 20px;
+}
+
+.product_title {
+    max-width: 213px;
+    margin-top: 15px;
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 25px;
+    color: #262D33;
+}
+
+.product_desc {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 5px;
+    color: #4B5157;
+}
+
+.fnvh {
+    display: inline-block;
+    width: 100%;
+}
+
+footer {
+    margin-top: 105px;
+    height: 210px;
+    background: #8F79D4;
+}
+
+
+.container_footer {
+    width: 1140px;
+}
+
+.footer {
+    background: #8F79D4;
+}
+.footer_header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-bottom: 44px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+.navigation_footer {
+    display: flex;
+    justify-content: space-between;
+    max-width: 453px;
+    width: 100%;
+}
+.navigation_footer a {
+    text-decoration: none;
+    color: #fff;
+    font-family: Lato;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 20px;
+}
+.social {
+    display: flex;
+    justify-content: space-between;
+    max-width: 175px;
+    width: 100%;
+}
+.followus {
+    color: #E7D9FF;
+}
+.copyright p {
+    color: #E7D9FF;
+}
+.footer_footer {
+    padding-top: 30px;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.payment {
+    display: flex;
+    justify-content: space-between;
+    max-width: 339px;
+    width: 100%;
+    height: 30px;
+}
+.paymentimg {
+    margin-top: auto;
+    margin-bottom: auto;
+}
